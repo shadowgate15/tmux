@@ -1,10 +1,10 @@
 # /Users/taylorschley/.config/tmux/tmuxinator/abacollection.yml
 
-name: default
+name: abacollection
 root: ~/Projects/abacollection/abacollection
 
 # Specifies (by name or index) which window will be selected on project startup. If not set, the first window is used.
-startup_window: editor
+startup_window: abacollection
 
 # Specifies (by index) which pane of the specified window will be selected on project startup. If not set, the first pane is used.
 startup_pane: 1
