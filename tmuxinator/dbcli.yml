@@ -1,0 +1,18 @@
+# /Users/taylorschley/.config/tmux/tmuxinator/default.yml
+
+name: dbcli
+root: /Users/taylorschley/Projects/dbcli
+
+# Specifies (by name or index) which window will be selected on project startup. If not set, the first window is used.
+startup_window: dev
+
+# Specifies (by index) which pane of the specified window will be selected on project startup. If not set, the first pane is used.
+startup_pane: 1
+
+windows:
+  - dev:
+      layout: ec07,272x62,0,0[272x46,0,0,0,272x15,0,47,2]
+      panes:
+        - nvim
+        -
+  - dbcli: DEBUG=dbcli:* yarn run start:dev

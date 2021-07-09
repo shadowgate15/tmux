@@ -30,5 +30,7 @@ windows:
         - node server/index.js
   - device-socket:
       root: ~/Projects/todo-nest-electron/frontend
+      layout: ec07,272x62,0,0[272x46,0,0,0,272x15,0,47,2]
       panes:
+        - nvim
         - npm start
