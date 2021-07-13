@@ -1,0 +1,3 @@
+# only allow the default tmuxinator layout
+tmuxinator/*.yml
+!tmuxinator/default.yml
